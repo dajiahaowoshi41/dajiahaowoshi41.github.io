@@ -1,34 +1,43 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="zn-CN" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>My first styled page</title>
+    <title>八苦居</title>
     <link rel="stylesheet" href="mystyle.css">
-  </style>
   </head>
   <body>
-    <!-- 网站导航菜单 -->
     <ul class="navbar">
-      <li><a href="index.html">Home page</a></li>
-      <li><a href="musings.html">Musings</a></li>
-      <li><a href="town.html">My town</a></li>
-      <li><a href="links.html">Links</a></li>
+      <li><a href="index.html">主页面</a></li>
+      <li><a href="musings.html">商品分类</a></li>
+      <li><a href="repair.html">修理业务</a></li>
+      <li><a href="lianxi.html">典当咨询</a></li>
     </ul>
-    <!-- Main content -->
-      <h1>My first styled page</h1>
 
-      <p>Welcome to my styled page!
+      <h1>
+        <img src="crow.png" alt="Logo" id="logo"> 八苦居在线平台
+      </h1>
+      <p>欢迎光临（刚刚装修好的）八苦居事务所线上平台！</p>
+      <p>本店经营锅碗瓢盆修补，磨剪子、戗菜刀、回收废旧家用电器，兼职古董字画修补、收购、寄售、典当、找人寻物，</p>
+      <p>只有您想不到，没有我们做不到！</p>
+      <p>随时为您服务。</p>
 
-      <p>It lacks images, but at least it has style.
-      And it has links, even if they don't go
-      anywhere&hellip;
+      <button id="start-btn">联系掌柜</button>
 
-      <p>There should be more here, but I don't know
-      what yet.
+      <div id="game-container" style="display:none;">
+          <div id="dialogue-box">
+              <div id="character-info">
+                  <img id="character-avatar" src="avatar1.png" alt="角色头像">
+                  <div id="character-name">？？？</div>
+              </div>
+              <p id="dialogue-text">...</p>
+          </div>
+          <div id="choices-container"></div>
+      </div>
+        <!-- 上面这一段div函数是让ai帮我修改的，因为我原来写的跳转程序运行不起来、、、 -->
 
-      <!-- Sign and date the page, it's only polite! -->
-      <address>Made 5 April 2004<br>
-        by myself.</address>
+      <address>乙巳年二月廿一<br>
+        掌柜 地游</address>
 
+      <script src="script.js"></script>
   </body>
 </html>
