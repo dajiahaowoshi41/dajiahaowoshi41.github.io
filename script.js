@@ -99,8 +99,8 @@ const scenes = [
         name: " ",
         avatar: "avatar1.png",
         choices: [
-            { text: "“42就是那个的答案！”", nextScene: 5 },
-            { text: "福来祸走，千秋太平。", nextScene: 10 }
+            { text: "“42”", nextScene: 5 },
+            { text: "“福来祸走，千秋太平。”", nextScene: 10 }
         ]
     },
     {
