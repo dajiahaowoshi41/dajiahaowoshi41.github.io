@@ -1,4 +1,3 @@
-
 document.getElementById('start-btn').addEventListener('click', startGame);
 
 function startGame() {
@@ -124,7 +123,7 @@ function renderScene() {
     const choicesContainer = document.getElementById('choices-container');
     choicesContainer.innerHTML = '';
 
-    // 接下来这个回到主界面的程序是ai老师根据我的屎山代码改出来的……终于能跑起来了（泪）
+    
     scene.choices.forEach(choice => {
         const button = document.createElement('button');
         button.innerText = choice.text;

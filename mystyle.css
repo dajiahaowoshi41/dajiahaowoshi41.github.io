@@ -19,7 +19,7 @@ body::before {
   transform: translate(-50%, -50%);
   z-index: -1;
 }
-/* 上面这一段是背景固定圆形图案的代码，我当时写的时候圆形总是跟着页面跑……感谢ai为我修正 */
+/* 上面这一段是背景固定圆形图案的代码，我刚开始写的时候圆形总是跟着页面跑…… */
 
 ul.navbar {
   position: relative;
