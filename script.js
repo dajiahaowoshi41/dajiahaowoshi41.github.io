@@ -100,7 +100,7 @@ const scenes = [
         avatar: "avatar1.png",
         choices: [
             { text: "“42就是那个的答案！”", nextScene: 5 },
-            { text: "乙巳己卯戊子，对吗？", nextScene: 10 }
+            { text: "福来祸走，千秋太平。", nextScene: 10 }
         ]
     },
     {
@@ -112,7 +112,7 @@ const scenes = [
         ]
     },
     {
-        text: "“……唉。”你听见对面一声叹息。“明天中午十二点，我们见面聊。”对面随即挂断了电话。",
+        text: "“……唉。”你听见一声叹息。“明天中午十二点，我们见面聊。”对面随即挂断了电话。",
         name: " ",
         avatar: "avatar1.png",
         choices: [
