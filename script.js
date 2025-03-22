@@ -1,5 +1,20 @@
 document.getElementById('start-btn').addEventListener('click', startGame);
 
+function sayHello() {
+  var userName = prompt("您好，尊姓大名？");
+  if (userName) {
+        alert("欢迎光临，" + userName + "。");
+        document.getElementById('welcome-text').innerText =
+            "欢迎光临（刚刚装修好的）八苦居事务所线上平台！尊敬的 " + userName + "！";
+    }
+  else {
+        alert("欢迎光临！");
+        document.getElementById('welcome-text').innerText =
+            "欢迎光临（刚刚装修好的）八苦居事务所线上平台！";
+    }
+}
+sayHello();
+
 function startGame() {
     document.getElementById('start-btn').style.display = 'none';
     document.getElementById('game-container').style.display = 'block';
@@ -123,7 +138,7 @@ function renderScene() {
     const choicesContainer = document.getElementById('choices-container');
     choicesContainer.innerHTML = '';
 
-    
+
     scene.choices.forEach(choice => {
         const button = document.createElement('button');
         button.innerText = choice.text;
